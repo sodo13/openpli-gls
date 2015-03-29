@@ -45,6 +45,10 @@ class About(Screen):
 		AboutText += _("DVB drivers: ") + about.getDriverInstalledDate() + "\n"
 
 		AboutText += _("Python version: ") + about.getPythonVersionString() + "\n"
+		
+		AboutText += _("DevLLopeur: SODO ") + "\n"
+		
+		AboutText += _("OpenGl: V2.0 ") + "\n"
 
 		fp_version = getFPVersion()
 		if fp_version is None:
