@@ -42,13 +42,13 @@ class About(Screen):
 		self["ImageVersion"] = StaticText(ImageVersion)
 		AboutText += ImageVersion + "\n"
 
-		AboutText += _("DVB drivers: ") + about.getDriverInstalledDate() + "\n"
+		AboutText += _("OpenGl Version: 2.0 ") + "\n"
 
 		AboutText += _("Python version: ") + about.getPythonVersionString() + "\n"
 		
 		AboutText += _("DevLLopeur: SODO ") + "\n"
 		
-		AboutText += _("OpenGl: V2.0 ") + "\n"
+		AboutText += _("GCC Build: 4.9.6 ") + "\n"
 
 		fp_version = getFPVersion()
 		if fp_version is None:
