@@ -42,11 +42,13 @@ class About(Screen):
 		self["ImageVersion"] = StaticText(ImageVersion)
 		AboutText += ImageVersion + "\n"
 
-		AboutText += _("OpenGl Version: 2.0 ") + "\n"
+                AboutText += _("OpenGl Vendor: Broadcom ") + "\n"
+                
+		AboutText += _("OpenGl Version: OpenGl ES 2.0 ") + "\n"
 
 		AboutText += _("Python version: ") + about.getPythonVersionString() + "\n"
 		
-		AboutText += _("DevLLopeur: SODO ") + "\n"
+		AboutText += _("DevLopeur: SODO ") + "\n"
 		
 		AboutText += _("GCC Build: 4.9.6 ") + "\n"
 
